@@ -1,0 +1,120 @@
+.interior{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+}
+.interior-child{
+    background-color:rgb(167,171,177) ;
+
+}
+.interior-con {
+    display: flex;
+    padding: 60px 00px;
+   
+}
+ 
+.intee, .inter, .inte {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.intee, .inte {
+    height: auto;
+}
+ .inte {
+    height: 630px;
+}
+
+.inter {
+    height: 400px;
+}
+
+.interior,.interior-images {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.interior-split {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.intrerior-para {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 15px;
+    color:gray;
+    font-weight: 1200;
+}
+
+.p{
+    font-size: 20px;
+    color:rgb(75, 74, 74);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.inletter {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.interior-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+.inter-last{
+    background-color:rgb(167,171,177) ;
+}
+.interior-images-img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+
+
+.css-r6ewbb-MuiToolbar-root{
+    padding: 0px 15px;
+}
+
+@media (max-width: 768px) {
+    .interior-con {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 10px 0;
+    }
+
+    .p, .inletter {
+        text-align: center;
+    }
+
+    /* .interior-images {
+        padding: 20px 0;
+    } */
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  

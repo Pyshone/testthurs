@@ -1,0 +1,59 @@
+.dialog-container .MuiPaper-root {
+    width: 600px;
+    max-width: 600px;
+    /* background-image: url("E:/app/myproject/src/assets/images/fr.3.jpg"); */
+    background-size: cover;
+    background-position: center;
+    color:black;
+    padding: 24px;
+}
+/* import 'E:/app/myproject/src/assets/css/dialogbox.css'; */
+
+/* .dialog-content{
+    background-image: url("E:/app/myproject/src/assets/images/fr.9.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding: 24px;
+} */
+
+.dialog-content-text {
+    color: #fff;
+    
+}
+
+.dialog-title h1 {
+  color: rgb(0, 102, 125);
+
+}
+
+.dialog-form .pass {
+    margin: 16px 0;
+}
+
+.dialog-form .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.dialog-form .MuiButton-contained {
+    width: 50%;
+    margin-top: 16px;
+    text-transform: none;
+    background-color: rgb(0, 102, 125);
+}
+
+.dialog-actions .MuiButton-contained {
+    background-color: red;
+    color: white;
+}
+
+.dialog-actions .MuiButton-contained:hover {
+    background-color: darkred;
+}
+
+
+.dialog-form .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border: 2px solid;
+    border-color:  rgb(0, 102, 125);
+}

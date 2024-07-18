@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+    font-family: "Poppins", ;
+    font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar {
+  color: rgb(1, 35, 43);
+  background-color: rgb(167, 171, 177);
+  height: 50px;
+
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+.css-1lrgo67-MuiPaper-root-MuiAppBar-root{
+  box-shadow: none !important;
+}
+.header{
+ background-color:#A7ABB1;
+
+}
+.nav-header{
+ height: 100px;
+  max-width: 1240px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.navbar-list {
+
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-item {
+  list-style: none;
+}
+
+.navbar-link {
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: rgb(0, 102, 125);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-link:hover {
+  color: orangered;
+}
+
+
+
+/* AppFooter.css */
+.footer {
+  background-color: rgb(0, 48, 70);
+  color: white;
+  bottom: 0;
+  padding: 15px;
+}
+
+.footer-container {
+  max-width: 1210px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0.5rem;
+}
+
+.footer-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+text-decoration: none;
+}
+
+.footer-section p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #ddd;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+.ava{
+  display: flex;
+justify-content: start;
+}
+
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+.ava{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .footer-section {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+}
+
+.css-1h9hlp5-MuiTypography-root{
+  justify-content: flex-end;
+}
+
+
+a{text-decoration: none;}
+body :Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+.product-details, .quantity-controls, .price-details, .order-summary {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  margin: 0 5px;
+}
+
+.checkout-button {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .cart-item {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product-image {
+    max-width: 150px;
+    margin-right: 20px;
+  }
+  .product-details, .quantity-controls, .price-details {
+    flex: 1;
+  }
+  .order-summary {
+    margin-top: 20px;
+    text-align: right;
+  }
+}
+/* //.............................................................. */
