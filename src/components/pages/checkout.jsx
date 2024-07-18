@@ -1,7 +1,7 @@
 import React, { useState ,useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { TextField, Button, Typography, Container, Grid, Paper } from '@mui/material';
-import { updateShippingDetails, updatePaymentDetails } from 'E:/app/furni/src/redux/reducer/cartSlice.js';
+import { updateShippingDetails, updatePaymentDetails } from '../../redux/reducer/cartSlice';
 import { useLocation } from 'react-router-dom';
 import { TableContainer, Table, TableBody, TableRow, TableCell, Divider } from '@mui/material';
 
